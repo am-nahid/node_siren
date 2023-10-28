@@ -1,0 +1,86 @@
+*{
+box-sizing:border-box
+
+}
+
+
+.footerflex{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:180px;
+    background-color: rgb(12, 71, 68);
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 50px;
+    font-size: larger;
+    color: azure;
+    
+}
+ 
+a{
+  color: azure;
+  text-decoration: none;
+}
+
+.Flogo{
+  padding:0.5rem 0;
+  font-weight: 600;
+}
+.reserve{
+  padding-top:0.8rem;
+}
+
+
+@media only screen and (max-width:600px) {
+  .footerflex{
+    height: fit-content;
+    display: block;
+   padding: 2%;
+
+  }
+
+  .footerfirstbox{
+    padding: 1rem ;
+  }
+
+  .footersecondbox{
+    padding:0 1rem 1rem;
+  }
+
+  .footerthirdbox{
+    padding:1rem;
+  }
+  
+}
+
+
+@media  (min-width:600px) and (max-width:1000px){
+
+  .footerflex{
+    height: fit-content;
+    /* display: block; */
+    padding-top: 8px;
+  }
+
+  
+  .footerfirstbox{
+    padding: 1rem ;
+  }
+
+  .footersecondbox{
+    padding:0 1rem 1rem;
+  }
+/* 
+  .footerthirdbox{
+    /* padding:1rem; */
+  /* }  */
+
+  .secondcommoncontainer{
+    display: flex;
+    width: 91%;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+  }
+}
+

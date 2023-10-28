@@ -1,0 +1,25 @@
+.thesiren{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+}
+.thevertical{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-orientation: mixed;
+    font-size: initial;
+    margin-right: 3px ;
+}
+
+.vertical {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    font-size: initial;
+}
+/* 
+@media only screen and (max-width:400px) {
+    .thesiren{
+        text-align:left ;
+    }
+} */

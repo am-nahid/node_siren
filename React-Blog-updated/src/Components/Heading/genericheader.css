@@ -1,0 +1,16 @@
+.generichr{
+ width: 45%;
+ border:2px solid red;
+}
+/* .genericheadertext{
+
+} */
+
+.genericheader{
+    display: inline-block;
+    padding-top: 1rem;
+}
+
+h1.genericheadertext {
+    padding-top: 40px;
+}
